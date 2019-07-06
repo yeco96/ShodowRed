@@ -1,0 +1,117 @@
+body {
+  background: #263238;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: #666;
+  text-align: center;
+}
+.background {
+  table-layout: fixed;
+  border-spacing: 0;
+}
+.background td {
+  padding: 0;
+}
+.lava, .actor {
+  background: #e74c3c;
+}
+.wall {
+  background: #444;
+  border: solid 3px #272727;
+  box-sizing: content-box;
+}
+.actor {
+  position: absolute;
+}
+.coin {
+  background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("https://mobilegamegraphics.com/wp-content/uploads/2015/06/Coin_spin.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.vida {
+  background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.enemigo{
+  background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("http://vignette1.wikia.nocookie.net/mario/images/4/40/Fuzzy-NSMBU.png/revision/latest?cb=20130120182349&path-prefix=es");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.enemigostatico{
+  background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("https://initiate.alphacoders.com/download/gif/15765");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.enemigovolar{
+  background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("http://rs58.pbsrc.com/albums/g280/evilemomuffin/games/mario/th28.gif~c200");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.enemigogrande{
+   background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("http://rs792.pbsrc.com/albums/yy207/ALXis0/jjntxx-1.gif~c200");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.bolafuego{
+ background-color:rgba(0, 0, 0, 0.0);
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/15/23/explosion-1293246_960_720.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.player {
+  background-color:rgba(0, 0, 0, 0.0);
+   background-image: url("https://lh3.googleusercontent.com/xv3UTXQWasN56l30RcLroiwUuMvEE57oZvMfLxH5E4H4gyEA5nhhRfMcUQhX27Ib5bWGu-Vx2gjSVF89cGukqTk=s400");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+ 
+}
+.lost .player {
+  background-color:rgba(0, 0, 0, 0.0);
+   background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/FireIcon.svg/313px-FireIcon.svg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 10%;
+}
+.won .player {
+  background-color:rgba(0, 0, 0, 0.0);
+   background-image: url("https://lh3.googleusercontent.com/-kMYpo3zbdAuT94gp9Yn610e9lVL42rWIHYNcIyKqdkwb--jQTSZI_b4FrC73-ljWcGboYmHYH4edyaPg60TGA=s400");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 10%;
+
+}
+.game {
+  position: relative;
+  overflow: hidden;
+}
+#status {
+  color: #666;
+  text-align: center;
+}
+
+#over{
+  color: #666;
+  text-align: center;
+    font-size: 100px;
+}
